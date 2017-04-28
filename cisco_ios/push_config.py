@@ -3,7 +3,7 @@ from os.path import isfile
 import os
 
 try:
-    from cisco_client import manager
+    from cisco_ncclient import manager
     HAS_CISCO_CLIENT = True
 except ImportError:
     HAS_CISCO_CLIENT = False

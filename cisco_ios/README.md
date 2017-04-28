@@ -4,4 +4,4 @@ This is an Ansible module utilizes the NETCONF over SSHv2 protocol, to install c
 
 ## Dependency
 
-This module makes use of the cisco_ncclient [a link](https://github.com/lepoul/cisco_ncclient) Python module, for the establishment of the NETCONF sessions and the installation of the configuration. 
+This module makes use of the [cisco_ncclient](https://github.com/lepoul/cisco_ncclient) Python module, for the establishment of the NETCONF sessions and the installation of the configuration. 
