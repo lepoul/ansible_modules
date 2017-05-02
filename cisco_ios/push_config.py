@@ -68,7 +68,7 @@ def main():
     )
 
     if not HAS_CISCO_CLIENT:
-        module.fail_json(msg='cisco_client required, not provided')
+        module.fail_json(msg='cisco_ncclient required, not provided')
 
     push(module)
 
